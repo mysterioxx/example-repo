@@ -1,5 +1,5 @@
 # Python program to test internet speed
-#first install speedtest using pip3 install speedtest
+#first install speedtest using (pip3 install speedtest-cli) then check the version (speedtest-cli --version)
 import speedtest
 st = speedtest.Speedtest()
 option = int(input('''What speed do you want to test:
